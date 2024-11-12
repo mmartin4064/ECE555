@@ -1,0 +1,29 @@
+ScopeSigMgr:loadpffile /filespace/m/mrmartin6/ECE555/ECE555/INV_2bit/test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+720+450
+wm geometry .sigmgr._PF:1 290x358+665+428
+wm geometry .sigmgr._PF:1 290x358+616+406
+wm geometry .sigmgr._PF:1 290x358+590+391
+wm geometry .sigmgr._PF:1 290x358+552+366
+wm geometry .sigmgr._PF:1 290x358+534+356
+wm geometry .sigmgr._PF:1 290x358+522+347
+wm geometry .sigmgr._PF:1 290x358+514+341
+wm geometry .sigmgr._PF:1 290x358+505+334
+wm geometry .sigmgr._PF:1 290x358+499+333
+wm geometry .sigmgr._PF:1 290x358+493+332
+wm geometry .sigmgr._PF:1 290x358+491+332
+wm geometry .sigmgr._PF:1 290x358+474+332
+wm geometry .sigmgr._PF:1 290x358+447+330
+wm geometry .sigmgr._PF:1 290x358+431+330
+wm geometry .sigmgr._PF:1 290x358+407+326
+wm geometry .sigmgr._PF:1 290x358+391+322
+wm geometry .sigmgr._PF:1 290x358+387+321
+pf:read PF:1 v(in<0>) v(in<1>) v(out<0>) v(out<1>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3
+Graph:DSel
+Graph:Select Graph0
+Mdi:Resize 490 517
+Mdi:Move 5 5
+Graph:DSel

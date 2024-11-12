@@ -1,0 +1,521 @@
+* Design:	AND2
+* Created:	"Sun Nov 3 2024"
+* Vendor:	"Mentor Graphics Corporation"
+* Program:	"Calibre xACT 3D"
+* Version:	"v2017.4_19.14"
+* Corner Name: typical_27
+* Nominal Temperature: 25C
+* Circuit Temperature: 27C
+* 
+* Integrated TICER reduction is not enabled.
+* SHORT DELAY THRESHOLD: 2e-15
+* Fill Mode: NG
+* PEX REDUCE CC ABSOLUTE : 1
+* PEX REDUCE CC RELATIVE : 0.01
+* Delta transform mode : 344834
+
+* .include "AND2.pex.netlist.pex"
+
+* Start of included file AND2.pex.netlist.pex
+
+.subckt PM_AND2%NET2 VSS 2 3 1
+c1 1 VSS 0.000753357f $X=0.216 $Y=0.054
+r1 2 1 0.314815 $w=5.4e-08 $l=1.7e-08 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.1986 $Y=0.054 $X2=0.216 $Y2=0.054
+r2 3 1 0.314815 $w=5.4e-08 $l=1.7e-08 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.2333 $Y=0.054 $X2=0.216 $Y2=0.054
+.ends
+
+.subckt PM_AND2%NET2__2 VSS 2 3 1
+c1 1 VSS 0.000801822f $X=0.108 $Y=0.054
+r1 2 1 0.314815 $w=5.4e-08 $l=1.7e-08 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.1253 $Y=0.054 $X2=0.108 $Y2=0.054
+r2 3 1 0.314815 $w=5.4e-08 $l=1.7e-08 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.0906 $Y=0.054 $X2=0.108 $Y2=0.054
+.ends
+
+.subckt PM_AND2%B VSS 31 12 16 25 28 44 48 7 9 1 10 2 11 5 6 8
+c1 1 VSS 0.00958733f $X=0.135 $Y=0.135
+c2 2 VSS 0.0101928f $X=0.3955 $Y=0.135
+c3 5 VSS 0.0460283f $X=0.135 $Y=0.0245
+c4 6 VSS 0.0456756f $X=0.189 $Y=0.135
+c5 7 VSS 0.0476948f $X=0.405 $Y=0.135
+c6 8 VSS 0.0744068f $X=0.459 $Y=0.135
+c7 9 VSS 0.00298922f $X=0.189 $Y=0.135
+c8 10 VSS 0.00341482f $X=0.405 $Y=0.153
+c9 11 VSS 0.00557235f $X=0.27 $Y=0.153
+r1 48 47 16.6668 $w=2e-08 $l=4.9e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.459 $Y=0.2025 $X2=0.459 $Y2=0.1535
+r2 8 40 6.74717 $w=2e-08 $layer=<ENCRYPTED_LAYER_23> $thickness=5.2e-08
++ $X=0.459 $Y=0.135 $X2=0.459 $Y2=0.135
+r3 8 47 6.46262 $w=2e-08 $l=1.85e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.459 $Y=0.135 $X2=0.459 $Y2=0.1535
+r4 44 43 16.6668 $w=2e-08 $l=4.9e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.405 $Y=0.2025 $X2=0.405 $Y2=0.1535
+r5 7 36 6.4296 $w=2e-08 $layer=<ENCRYPTED_LAYER_23> $thickness=5.22105e-08
++ $X=0.405 $Y=0.135 $X2=0.405 $Y2=0.135
+r6 7 43 6.46262 $w=2e-08 $l=1.85e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.405 $Y=0.135 $X2=0.405 $Y2=0.1535
+r7 39 40 20.114 $w=2e-08 $l=2.7e-08 $layer=LIG $thickness=4.8e-08 $X=0.432
++ $Y=0.135 $X2=0.459 $Y2=0.135
+r8 37 39 17.097 $w=2e-08 $l=1.75e-08 $layer=LIG $thickness=4.8e-08 $X=0.4145
++ $Y=0.135 $X2=0.432 $Y2=0.135
+r9 36 37 3.01694 $w=2e-08 $l=9.5e-09 $layer=LIG $thickness=4.8e-08 $X=0.405
++ $Y=0.135 $X2=0.4145 $Y2=0.135
+r10 2 36 3.01694 $w=2e-08 $l=9.5e-09 $layer=LIG $thickness=4.8e-08 $X=0.3955
++ $Y=0.135 $X2=0.405 $Y2=0.135
+r11 35 36 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_4> $X=0.405
++ $Y=0.135 $X2=0.405 $Y2=0.135
+r12 10 34 5.11582 $w=1.8e-08 $l=2.7e-08 $layer=M1 $thickness=3.6e-08 $X=0.405
++ $Y=0.153 $X2=0.378 $Y2=0.153
+r13 10 35 3.01711 $w=1.8e-08 $l=1.8e-08 $layer=M1 $thickness=3.6e-08 $X=0.405
++ $Y=0.153 $X2=0.405 $Y2=0.135
+r14 33 34 6.29612 $w=1.8e-08 $l=2.7e-08 $layer=M1 $thickness=3.6e-08 $X=0.351
++ $Y=0.153 $X2=0.378 $Y2=0.153
+r15 31 11 16.8407 $w=1.8e-08 $l=8.10062e-08 $layer=M1 $thickness=3.6e-08
++ $X=0.189 $Y=0.152 $X2=0.27 $Y2=0.153
+r16 11 33 18.8884 $w=1.8e-08 $l=8.1e-08 $layer=M1 $thickness=3.6e-08 $X=0.27
++ $Y=0.153 $X2=0.351 $Y2=0.153
+r17 31 30 0.433689 $w=1.8e-08 $l=4.3e-09 $layer=M1 $thickness=3.6e-08 $X=0.189
++ $Y=0.152 $X2=0.189 $Y2=0.1477
+r18 9 21 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_4> $X=0.189
++ $Y=0.135 $X2=0.189 $Y2=0.135
+r19 9 30 2.48137 $w=1.8e-08 $l=1.27e-08 $layer=M1 $thickness=3.6e-08 $X=0.189
++ $Y=0.135 $X2=0.189 $Y2=0.1477
+r20 28 27 16.6668 $w=2e-08 $l=4.9e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.189 $Y=0.2025 $X2=0.189 $Y2=0.1535
+r21 25 26 16.6668 $w=2e-08 $l=4.9e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.189 $Y=0.054 $X2=0.189 $Y2=0.103
+r22 6 21 6.4296 $w=2e-08 $layer=<ENCRYPTED_LAYER_23> $thickness=5.22105e-08
++ $X=0.189 $Y=0.135 $X2=0.189 $Y2=0.135
+r23 6 26 11.0545 $w=2e-08 $l=3.2e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.189 $Y=0.135 $X2=0.189 $Y2=0.103
+r24 6 27 6.46262 $w=2e-08 $l=1.85e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.189 $Y=0.135 $X2=0.189 $Y2=0.1535
+r25 20 21 3.01694 $w=2e-08 $l=9.5e-09 $layer=LIG $thickness=4.8e-08 $X=0.1795
++ $Y=0.135 $X2=0.189 $Y2=0.135
+r26 19 20 17.097 $w=2e-08 $l=1.75e-08 $layer=LIG $thickness=4.8e-08 $X=0.162
++ $Y=0.135 $X2=0.1795 $Y2=0.135
+r27 1 14 6.74717 $w=2e-08 $layer=<ENCRYPTED_LAYER_23> $thickness=5.2e-08
++ $X=0.135 $Y=0.135 $X2=0.135 $Y2=0.135
+r28 1 19 20.114 $w=2e-08 $l=2.7e-08 $layer=LIG $thickness=4.8e-08 $X=0.135
++ $Y=0.135 $X2=0.162 $Y2=0.135
+r29 16 15 16.6668 $w=2e-08 $l=4.9e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.135 $Y=0.2025 $X2=0.135 $Y2=0.1535
+r30 14 15 6.46262 $w=2e-08 $l=1.85e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.135 $Y=0.135 $X2=0.135 $Y2=0.1535
+r31 13 14 11.0545 $w=2e-08 $l=3.2e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.135 $Y=0.103 $X2=0.135 $Y2=0.135
+r32 12 13 16.6668 $w=2e-08 $l=4.9e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.135 $Y=0.054 $X2=0.135 $Y2=0.103
+r33 12 5 10.0341 $w=2e-08 $l=2.95e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.135 $Y=0.054 $X2=0.135 $Y2=0.0245
+.ends
+
+.subckt PM_AND2%Y VSS 18 13 24 8 7 11
+c1 1 VSS 0.00810579f $X=0.54 $Y=0.054
+c2 2 VSS 0.00980107f $X=0.54 $Y=0.2025
+c3 7 VSS 0.0294957f $X=0.5255 $Y=0.054
+c4 8 VSS 0.0404008f $X=0.5255 $Y=0.2025
+c5 9 VSS 0.0038401f $X=0.54 $Y=0.072
+c6 10 VSS 0.00627191f $X=0.567 $Y=0.234
+c7 11 VSS 0.00546326f $X=0.567 $Y=0.099
+r1 8 2 0.154321 $w=8.1e-08 $l=1.25e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.5255 $Y=0.2025 $X2=0.54 $Y2=0.2025
+r2 24 8 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.5226 $Y=0.2025 $X2=0.5255 $Y2=0.2025
+r3 2 21 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_7> $X=0.54
++ $Y=0.2025 $X2=0.54 $Y2=0.234
+r4 21 22 3.14806 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.54
++ $Y=0.234 $X2=0.5535 $Y2=0.234
+r5 10 20 3.94987 $w=1.8e-08 $l=2.2e-08 $layer=M1 $thickness=3.6e-08 $X=0.567
++ $Y=0.234 $X2=0.567 $Y2=0.212
+r6 10 22 1.96775 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.567
++ $Y=0.234 $X2=0.5535 $Y2=0.234
+r7 19 20 9.85227 $w=1.8e-08 $l=4.23e-08 $layer=M1 $thickness=3.6e-08 $X=0.567
++ $Y=0.1697 $X2=0.567 $Y2=0.212
+r8 18 19 6.9374 $w=1.8e-08 $l=2.97e-08 $layer=M1 $thickness=3.6e-08 $X=0.568
++ $Y=0.14 $X2=0.567 $Y2=0.1697
+r9 18 17 1.69063 $w=1.8e-08 $l=7.3e-09 $layer=M1 $thickness=3.6e-08 $X=0.568
++ $Y=0.14 $X2=0.567 $Y2=0.1327
+r10 16 17 2.62338 $w=1.8e-08 $l=1.12e-08 $layer=M1 $thickness=3.6e-08 $X=0.567
++ $Y=0.1215 $X2=0.567 $Y2=0.1327
+r11 11 15 5.11582 $w=1.8e-08 $l=2.7e-08 $layer=M1 $thickness=3.6e-08 $X=0.567
++ $Y=0.099 $X2=0.567 $Y2=0.072
+r12 11 16 5.24677 $w=1.8e-08 $l=2.25e-08 $layer=M1 $thickness=3.6e-08 $X=0.567
++ $Y=0.099 $X2=0.567 $Y2=0.1215
+r13 14 15 1.96775 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.5535
++ $Y=0.072 $X2=0.567 $Y2=0.072
+r14 9 14 3.14806 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.54
++ $Y=0.072 $X2=0.5535 $Y2=0.072
+r15 1 9 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_7> $X=0.54
++ $Y=0.054 $X2=0.54 $Y2=0.072
+r16 7 1 0.231482 $w=5.4e-08 $l=1.25e-08 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.5255 $Y=0.054 $X2=0.54 $Y2=0.054
+r17 13 7 0.0462963 $w=5.4e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.5226 $Y=0.054 $X2=0.5255 $Y2=0.054
+.ends
+
+.subckt PM_AND2%A VSS 24 14 20 45 49 52 55 11 2 13 8 12 1 5 6 7
+c1 1 VSS 0.00751935f $X=0.081 $Y=0.135
+c2 2 VSS 0.0110617f $X=0.3415 $Y=0.108
+c3 5 VSS 0.0772624f $X=0.081 $Y=0.0245
+c4 6 VSS 0.0725267f $X=0.243 $Y=0.108
+c5 7 VSS 0.0729892f $X=0.297 $Y=0.108
+c6 8 VSS 0.046792f $X=0.351 $Y=0.108
+c7 9 VSS 0.00527221f $X=0.081 $Y=0.036
+c8 10 VSS 0.00520294f $X=0.351 $Y=0.036
+c9 11 VSS 0.00610402f $X=0.081 $Y=0.1035
+c10 12 VSS 0.0270301f $X=0.0945 $Y=0.036
+c11 13 VSS 0.00410556f $X=0.351 $Y=0.054
+r1 55 54 21.2586 $w=2e-08 $l=6.25e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.243 $Y=0.2025 $X2=0.243 $Y2=0.14
+r2 52 53 12.0749 $w=2e-08 $l=3.55e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.243 $Y=0.054 $X2=0.243 $Y2=0.0895
+r3 6 40 6.74717 $w=2e-08 $layer=<ENCRYPTED_LAYER_23> $thickness=5.2e-08
++ $X=0.243 $Y=0.108 $X2=0.243 $Y2=0.108
+r4 6 53 6.46262 $w=2e-08 $l=1.85e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.243 $Y=0.108 $X2=0.243 $Y2=0.0895
+r5 6 54 11.0545 $w=2e-08 $l=3.2e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.243 $Y=0.108 $X2=0.243 $Y2=0.14
+r6 49 48 21.2586 $w=2e-08 $l=6.25e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.297 $Y=0.2025 $X2=0.297 $Y2=0.14
+r7 7 38 6.74717 $w=2e-08 $layer=<ENCRYPTED_LAYER_23> $thickness=5.2e-08
++ $X=0.297 $Y=0.108 $X2=0.297 $Y2=0.108
+r8 7 48 11.0545 $w=2e-08 $l=3.2e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.297 $Y=0.108 $X2=0.297 $Y2=0.14
+r9 45 44 21.2586 $w=2e-08 $l=6.25e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.351 $Y=0.2025 $X2=0.351 $Y2=0.14
+r10 8 35 6.4296 $w=2e-08 $layer=<ENCRYPTED_LAYER_23> $thickness=5.22105e-08
++ $X=0.351 $Y=0.108 $X2=0.351 $Y2=0.108
+r11 8 44 11.0545 $w=2e-08 $l=3.2e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.351 $Y=0.108 $X2=0.351 $Y2=0.14
+r12 39 40 20.114 $w=2e-08 $l=2.7e-08 $layer=LIG $thickness=4.8e-08 $X=0.27
++ $Y=0.108 $X2=0.243 $Y2=0.108
+r13 38 39 20.114 $w=2e-08 $l=2.7e-08 $layer=LIG $thickness=4.8e-08 $X=0.297
++ $Y=0.108 $X2=0.27 $Y2=0.108
+r14 37 38 20.114 $w=2e-08 $l=2.7e-08 $layer=LIG $thickness=4.8e-08 $X=0.324
++ $Y=0.108 $X2=0.297 $Y2=0.108
+r15 2 35 3.01694 $w=2e-08 $l=9.5e-09 $layer=LIG $thickness=4.8e-08 $X=0.3415
++ $Y=0.108 $X2=0.351 $Y2=0.108
+r16 2 37 17.097 $w=2e-08 $l=1.75e-08 $layer=LIG $thickness=4.8e-08 $X=0.3415
++ $Y=0.108 $X2=0.324 $Y2=0.108
+r17 34 35 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_4> $X=0.351
++ $Y=0.108 $X2=0.351 $Y2=0.108
+r18 33 34 4.19742 $w=1.8e-08 $l=1.8e-08 $layer=M1 $thickness=3.6e-08 $X=0.351
++ $Y=0.09 $X2=0.351 $Y2=0.108
+r19 32 33 4.19742 $w=1.8e-08 $l=1.8e-08 $layer=M1 $thickness=3.6e-08 $X=0.351
++ $Y=0.072 $X2=0.351 $Y2=0.09
+r20 13 32 4.19742 $w=1.8e-08 $l=1.8e-08 $layer=M1 $thickness=3.6e-08 $X=0.351
++ $Y=0.054 $X2=0.351 $Y2=0.072
+r21 10 31 17.2393 $w=1.8e-08 $l=8.1e-08 $layer=M1 $thickness=3.6e-08 $X=0.351
++ $Y=0.036 $X2=0.27 $Y2=0.036
+r22 10 13 2.5483 $w=1.8e-08 $l=1.8e-08 $layer=M1 $thickness=3.6e-08 $X=0.351
++ $Y=0.036 $X2=0.351 $Y2=0.054
+r23 30 31 18.8884 $w=1.8e-08 $l=8.1e-08 $layer=M1 $thickness=3.6e-08 $X=0.189
++ $Y=0.036 $X2=0.27 $Y2=0.036
+r24 29 30 3.14806 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.1755
++ $Y=0.036 $X2=0.189 $Y2=0.036
+r25 28 29 5.94634 $w=1.8e-08 $l=2.55e-08 $layer=M1 $thickness=3.6e-08 $X=0.15
++ $Y=0.036 $X2=0.1755 $Y2=0.036
+r26 27 28 8.39483 $w=1.8e-08 $l=3.6e-08 $layer=M1 $thickness=3.6e-08 $X=0.114
++ $Y=0.036 $X2=0.15 $Y2=0.036
+r27 12 27 4.5472 $w=1.8e-08 $l=1.95e-08 $layer=M1 $thickness=3.6e-08 $X=0.0945
++ $Y=0.036 $X2=0.114 $Y2=0.036
+r28 9 26 2.5483 $w=1.8e-08 $l=1.8e-08 $layer=M1 $thickness=3.6e-08 $X=0.081
++ $Y=0.036 $X2=0.081 $Y2=0.054
+r29 9 12 1.49895 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.081
++ $Y=0.036 $X2=0.0945 $Y2=0.036
+r30 25 26 4.19742 $w=1.8e-08 $l=1.8e-08 $layer=M1 $thickness=3.6e-08 $X=0.081
++ $Y=0.072 $X2=0.081 $Y2=0.054
+r31 24 11 7.34548 $w=1.8e-08 $l=3.15e-08 $layer=M1 $thickness=3.6e-08 $X=0.081
++ $Y=0.135 $X2=0.081 $Y2=0.1035
+r32 11 25 7.34548 $w=1.8e-08 $l=3.15e-08 $layer=M1 $thickness=3.6e-08 $X=0.081
++ $Y=0.1035 $X2=0.081 $Y2=0.072
+r33 1 17 6.74717 $w=2e-08 $layer=<ENCRYPTED_LAYER_23> $thickness=5.2e-08
++ $X=0.081 $Y=0.135 $X2=0.081 $Y2=0.135
+r34 24 1 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_4> $X=0.081
++ $Y=0.135 $X2=0.081 $Y2=0.135
+r35 20 19 14.6259 $w=2e-08 $l=4.3e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.2025 $X2=0.081 $Y2=0.1595
+r36 18 19 2.89117 $w=2e-08 $l=8.5e-09 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.151 $X2=0.081 $Y2=0.1595
+r37 17 18 5.61228 $w=2e-08 $l=1.6e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.135 $X2=0.081 $Y2=0.151
+r38 16 17 5.61228 $w=2e-08 $l=1.6e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.119 $X2=0.081 $Y2=0.135
+r39 15 16 7.48304 $w=2e-08 $l=2.2e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.097 $X2=0.081 $Y2=0.119
+r40 14 15 14.6259 $w=2e-08 $l=4.3e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.054 $X2=0.081 $Y2=0.097
+r41 14 5 10.0341 $w=2e-08 $l=2.95e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.054 $X2=0.081 $Y2=0.0245
+.ends
+
+.subckt PM_AND2%NET1 VSS 33 39 66 67 70 71 74 75 78 79 82 83 22 5 20 30 21 3 4
++ 6 28 25 7 1 19 23 18 32 27
+c1 1 VSS 0.00306677f $X=0.513 $Y=0.135
+c2 3 VSS 0.0106836f $X=0.108 $Y=0.2025
+c3 4 VSS 0.0039926f $X=0.162 $Y=0.054
+c4 5 VSS 0.00971133f $X=0.216 $Y=0.2025
+c5 6 VSS 0.00981783f $X=0.324 $Y=0.2025
+c6 7 VSS 0.0102328f $X=0.432 $Y=0.2025
+c7 18 VSS 0.0725252f $X=0.513 $Y=0.0245
+c8 19 VSS 0.00265696f $X=0.1475 $Y=0.054
+c9 20 VSS 0.00454011f $X=0.0935 $Y=0.2025
+c10 21 VSS 0.00454214f $X=0.2015 $Y=0.2025
+c11 22 VSS 0.00459757f $X=0.3095 $Y=0.2025
+c12 23 VSS 0.00447372f $X=0.4175 $Y=0.2025
+c13 24 VSS 0.00599474f $X=0.138 $Y=0.234
+c14 25 VSS 0.000621409f $X=0.138 $Y=0.072
+c15 26 VSS 0.000560486f $X=0.138 $Y=0.19
+c16 27 VSS 0.000839034f $X=0.513 $Y=0.19
+c17 28 VSS 0.00147645f $X=0.138 $Y=0.1715
+c18 29 VSS 0.000842203f $X=0.138 $Y=0.212
+c19 30 VSS 0.0090258f $X=0.4725 $Y=0.19
+c20 31 VSS 0.0271752f $X=0.177 $Y=0.234
+c21 32 VSS 0.00126309f $X=0.513 $Y=0.135
+r1 83 81 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.4493 $Y=0.2025 $X2=0.4465 $Y2=0.2025
+r2 7 81 0.179012 $w=8.1e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.432 $Y=0.2025 $X2=0.4465 $Y2=0.2025
+r3 23 7 0.179012 $w=8.1e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.4175 $Y=0.2025 $X2=0.432 $Y2=0.2025
+r4 82 23 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.4146 $Y=0.2025 $X2=0.4175 $Y2=0.2025
+r5 79 77 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.3413 $Y=0.2025 $X2=0.3385 $Y2=0.2025
+r6 6 77 0.179012 $w=8.1e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.324 $Y=0.2025 $X2=0.3385 $Y2=0.2025
+r7 22 6 0.179012 $w=8.1e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.3095 $Y=0.2025 $X2=0.324 $Y2=0.2025
+r8 78 22 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.3066 $Y=0.2025 $X2=0.3095 $Y2=0.2025
+r9 75 73 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.2333 $Y=0.2025 $X2=0.2305 $Y2=0.2025
+r10 5 73 0.179012 $w=8.1e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.216 $Y=0.2025 $X2=0.2305 $Y2=0.2025
+r11 21 5 0.179012 $w=8.1e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.2015 $Y=0.2025 $X2=0.216 $Y2=0.2025
+r12 74 21 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.1986 $Y=0.2025 $X2=0.2015 $Y2=0.2025
+r13 71 69 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.1253 $Y=0.2025 $X2=0.1225 $Y2=0.2025
+r14 3 69 0.179012 $w=8.1e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.108 $Y=0.2025 $X2=0.1225 $Y2=0.2025
+r15 20 3 0.179012 $w=8.1e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.0935 $Y=0.2025 $X2=0.108 $Y2=0.2025
+r16 70 20 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.0906 $Y=0.2025 $X2=0.0935 $Y2=0.2025
+r17 7 63 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_7> $X=0.432
++ $Y=0.2025 $X2=0.432 $Y2=0.234
+r18 6 61 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_7> $X=0.324
++ $Y=0.2025 $X2=0.324 $Y2=0.234
+r19 5 59 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_7> $X=0.216
++ $Y=0.2025 $X2=0.216 $Y2=0.234
+r20 67 65 0.0462963 $w=5.4e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.1793 $Y=0.054 $X2=0.1765 $Y2=0.054
+r21 4 65 0.268519 $w=5.4e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.162 $Y=0.054 $X2=0.1765 $Y2=0.054
+r22 19 4 0.268519 $w=5.4e-08 $l=1.45e-08 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.1475 $Y=0.054 $X2=0.162 $Y2=0.054
+r23 66 19 0.0462963 $w=5.4e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.1446 $Y=0.054 $X2=0.1475 $Y2=0.054
+r24 3 57 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_7> $X=0.108
++ $Y=0.2025 $X2=0.108 $Y2=0.234
+r25 62 63 12.5922 $w=1.8e-08 $l=5.4e-08 $layer=M1 $thickness=3.6e-08 $X=0.378
++ $Y=0.234 $X2=0.432 $Y2=0.234
+r26 61 62 12.5922 $w=1.8e-08 $l=5.4e-08 $layer=M1 $thickness=3.6e-08 $X=0.324
++ $Y=0.234 $X2=0.378 $Y2=0.234
+r27 60 61 12.5922 $w=1.8e-08 $l=5.4e-08 $layer=M1 $thickness=3.6e-08 $X=0.27
++ $Y=0.234 $X2=0.324 $Y2=0.234
+r28 59 60 12.5922 $w=1.8e-08 $l=5.4e-08 $layer=M1 $thickness=3.6e-08 $X=0.216
++ $Y=0.234 $X2=0.27 $Y2=0.234
+r29 31 59 9.0944 $w=1.8e-08 $l=3.9e-08 $layer=M1 $thickness=3.6e-08 $X=0.177
++ $Y=0.234 $X2=0.216 $Y2=0.234
+r30 4 56 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_7> $X=0.162
++ $Y=0.054 $X2=0.162 $Y2=0.072
+r31 57 58 3.49785 $w=1.8e-08 $l=1.5e-08 $layer=M1 $thickness=3.6e-08 $X=0.108
++ $Y=0.234 $X2=0.123 $Y2=0.234
+r32 24 29 3.94987 $w=1.8e-08 $l=2.2e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.234 $X2=0.138 $Y2=0.212
+r33 24 58 2.31754 $w=1.8e-08 $l=1.5e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.234 $X2=0.123 $Y2=0.234
+r34 24 31 7.91409 $w=1.8e-08 $l=3.9e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.234 $X2=0.177 $Y2=0.234
+r35 55 56 2.79828 $w=1.8e-08 $l=1.2e-08 $layer=M1 $thickness=3.6e-08 $X=0.15
++ $Y=0.072 $X2=0.162 $Y2=0.072
+r36 25 54 5.11582 $w=1.8e-08 $l=2.7e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.072 $X2=0.138 $Y2=0.099
+r37 25 55 1.61797 $w=1.8e-08 $l=1.2e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.072 $X2=0.15 $Y2=0.072
+r38 53 54 5.24677 $w=1.8e-08 $l=2.25e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.1215 $X2=0.138 $Y2=0.099
+r39 52 53 3.14806 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.135 $X2=0.138 $Y2=0.1215
+r40 51 52 4.19742 $w=1.8e-08 $l=1.8e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.153 $X2=0.138 $Y2=0.135
+r41 28 51 4.31401 $w=1.8e-08 $l=1.85e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.1715 $X2=0.138 $Y2=0.153
+r42 26 50 3.71668 $w=1.8e-08 $l=2.1e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.19 $X2=0.159 $Y2=0.19
+r43 26 28 3.1337 $w=1.8e-08 $l=1.85e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.19 $X2=0.138 $Y2=0.1715
+r44 26 29 3.94987 $w=1.8e-08 $l=2.2e-08 $layer=M1 $thickness=3.6e-08 $X=0.138
++ $Y=0.19 $X2=0.138 $Y2=0.212
+r45 49 50 3.84763 $w=1.8e-08 $l=1.65e-08 $layer=M1 $thickness=3.6e-08 $X=0.1755
++ $Y=0.19 $X2=0.159 $Y2=0.19
+r46 48 49 3.14806 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.189
++ $Y=0.19 $X2=0.1755 $Y2=0.19
+r47 47 48 25.1845 $w=1.8e-08 $l=1.08e-07 $layer=M1 $thickness=3.6e-08 $X=0.297
++ $Y=0.19 $X2=0.189 $Y2=0.19
+r48 46 47 25.1845 $w=1.8e-08 $l=1.08e-07 $layer=M1 $thickness=3.6e-08 $X=0.405
++ $Y=0.19 $X2=0.297 $Y2=0.19
+r49 45 46 5.24677 $w=1.8e-08 $l=2.25e-08 $layer=M1 $thickness=3.6e-08 $X=0.4275
++ $Y=0.19 $X2=0.405 $Y2=0.19
+r50 30 45 10.4935 $w=1.8e-08 $l=4.5e-08 $layer=M1 $thickness=3.6e-08 $X=0.4725
++ $Y=0.19 $X2=0.4275 $Y2=0.19
+r51 27 44 2.6649 $w=1.8e-08 $l=1.85e-08 $layer=M1 $thickness=3.6e-08 $X=0.513
++ $Y=0.19 $X2=0.513 $Y2=0.1715
+r52 27 30 7.79507 $w=1.8e-08 $l=4.05e-08 $layer=M1 $thickness=3.6e-08 $X=0.513
++ $Y=0.19 $X2=0.4725 $Y2=0.19
+r53 43 44 4.31401 $w=1.8e-08 $l=1.85e-08 $layer=M1 $thickness=3.6e-08 $X=0.513
++ $Y=0.153 $X2=0.513 $Y2=0.1715
+r54 32 43 4.19742 $w=1.8e-08 $l=1.8e-08 $layer=M1 $thickness=3.6e-08 $X=0.513
++ $Y=0.135 $X2=0.513 $Y2=0.153
+r55 1 36 6.74717 $w=2e-08 $layer=<ENCRYPTED_LAYER_23> $thickness=5.2e-08
++ $X=0.513 $Y=0.135 $X2=0.513 $Y2=0.135
+r56 1 32 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_4> $X=0.513
++ $Y=0.135 $X2=0.513 $Y2=0.135
+r57 39 38 14.6259 $w=2e-08 $l=4.3e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.513 $Y=0.2025 $X2=0.513 $Y2=0.1595
+r58 37 38 2.89117 $w=2e-08 $l=8.5e-09 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.513 $Y=0.151 $X2=0.513 $Y2=0.1595
+r59 36 37 5.61228 $w=2e-08 $l=1.6e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.513 $Y=0.135 $X2=0.513 $Y2=0.151
+r60 35 36 5.61228 $w=2e-08 $l=1.6e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.513 $Y=0.119 $X2=0.513 $Y2=0.135
+r61 34 35 7.48304 $w=2e-08 $l=2.2e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.513 $Y=0.097 $X2=0.513 $Y2=0.119
+r62 33 34 14.6259 $w=2e-08 $l=4.3e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.513 $Y=0.054 $X2=0.513 $Y2=0.097
+r63 33 18 10.0341 $w=2e-08 $l=2.95e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.513 $Y=0.054 $X2=0.513 $Y2=0.0245
+.ends
+
+
+* End of included file AND2.pex.netlist.pex
+
+
+
+*
+.SUBCKT AND2 VSS VDD A B Y
+*
+* VSS VSS
+* VDD VDD
+* A A
+* B B
+* Y Y
+*
+*
+
+MM2 N_MM2_d N_MM2_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM5 N_MM5_d N_MM5_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM5@4 N_MM5@4_d N_MM5@4_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM2@4 N_MM2@4_d N_MM2@4_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM2@3 N_MM2@3_d N_MM2@3_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM2@2 N_MM2@2_d N_MM2@2_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM5@3 N_MM5@3_d N_MM5@3_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM5@2 N_MM5@2_d N_MM5@2_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM4 N_MM4_d N_MM4_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM1@2 N_MM1@2_d N_MM1@2_g VSS VSS nmos_rvt L=2e-08 W=5.4e-08 nfin=2
+MM0@2 N_MM0@2_d N_MM0@2_g N_MM0@2_s VSS nmos_rvt L=2e-08 W=5.4e-08 nfin=2
+MM0 N_MM0_d N_MM0_g N_MM0_s VSS nmos_rvt L=2e-08 W=5.4e-08 nfin=2
+MM1 N_MM1_d N_MM1_g VSS VSS nmos_rvt L=2e-08 W=5.4e-08 nfin=2
+MM3 N_MM3_d N_MM3_g VSS VSS nmos_rvt L=2e-08 W=5.4e-08 nfin=2
+
+
+* .include "AND2.pex.netlist.pxi"
+
+* Start of included file AND2.pex.netlist.pxi
+x_PM_AND2%NET2 VSS N_MM0_s N_MM1_d N_NET2_1 PM_AND2%NET2
+cc_1 N_NET2_1 N_A_6 0.0128353f $X=0.216 $Y=0.054
+cc_2 N_NET2_1 N_B_6 0.0127233f $X=0.216 $Y=0.054
+x_PM_AND2%NET2__2 VSS N_MM0@2_s N_MM1@2_d N_NET2__2_1 PM_AND2%NET2__2
+cc_3 N_NET2__2_1 N_A_5 0.0126408f $X=0.108 $Y=0.054
+cc_4 N_NET2__2_1 N_B_5 0.012864f $X=0.108 $Y=0.054
+x_PM_AND2%B VSS B N_MM0@2_g N_MM5_g N_MM0_g N_MM5@4_g N_MM5@3_g N_MM5@2_g N_B_7
++ N_B_9 N_B_1 N_B_10 N_B_2 N_B_11 N_B_5 N_B_6 N_B_8 PM_AND2%B
+cc_5 N_B_7 N_A_11 0.000239916f $X=0.405 $Y=0.135
+cc_6 N_B_9 N_A_2 0.00031328f $X=0.189 $Y=0.135
+cc_7 N_B_1 N_A_2 0.0003358f $X=0.135 $Y=0.135
+cc_8 N_B_10 N_A_13 0.000493257f $X=0.405 $Y=0.153
+cc_9 N_B_2 N_A_2 0.000525832f $X=0.3955 $Y=0.135
+cc_10 N_B_2 N_A_8 0.000723946f $X=0.3955 $Y=0.135
+cc_11 N_B_9 N_A_12 0.00086164f $X=0.189 $Y=0.135
+cc_12 N_B_11 N_A_2 0.003521f $X=0.27 $Y=0.153
+cc_13 N_B_1 N_A_1 0.00193881f $X=0.135 $Y=0.135
+cc_14 N_B_11 N_A_13 0.00487632f $X=0.27 $Y=0.153
+cc_15 N_B_5 N_A_5 0.00681046f $X=0.135 $Y=0.0245
+cc_16 N_B_6 N_A_6 0.00696031f $X=0.189 $Y=0.135
+cc_17 N_B_7 N_A_8 0.012259f $X=0.405 $Y=0.135
+x_PM_AND2%Y VSS Y N_MM3_d N_MM4_d N_Y_8 N_Y_7 N_Y_11 PM_AND2%Y
+cc_18 N_Y_8 N_NET1_32 0.000395648f $X=0.5255 $Y=0.2025
+cc_19 N_Y_8 N_NET1_30 0.000525285f $X=0.5255 $Y=0.2025
+cc_20 N_Y_8 N_NET1_1 0.00217788f $X=0.5255 $Y=0.2025
+cc_21 N_Y_8 N_NET1_27 0.00155803f $X=0.5255 $Y=0.2025
+cc_22 N_Y_7 N_NET1_18 0.0106387f $X=0.5255 $Y=0.054
+cc_23 N_Y_11 N_NET1_32 0.00398489f $X=0.567 $Y=0.099
+cc_24 N_Y_8 N_NET1_18 0.0509077f $X=0.5255 $Y=0.2025
+x_PM_AND2%A VSS A N_MM1@2_g N_MM2_g N_MM2@2_g N_MM2@3_g N_MM1_g N_MM2@4_g
++ N_A_11 N_A_2 N_A_13 N_A_8 N_A_12 N_A_1 N_A_5 N_A_6 N_A_7 PM_AND2%A
+x_PM_AND2%NET1 VSS N_MM3_g N_MM4_g N_MM0@2_d N_MM0_d N_MM2_d N_MM5_d N_MM5@4_d
++ N_MM2@4_d N_MM2@3_d N_MM2@2_d N_MM5@3_d N_MM5@2_d N_NET1_22 N_NET1_5
++ N_NET1_20 N_NET1_30 N_NET1_21 N_NET1_3 N_NET1_4 N_NET1_6 N_NET1_28 N_NET1_25
++ N_NET1_7 N_NET1_1 N_NET1_19 N_NET1_23 N_NET1_18 N_NET1_32 N_NET1_27
++ PM_AND2%NET1
+cc_25 N_NET1_22 N_A_2 0.00136922f $X=0.3095 $Y=0.2025
+cc_26 N_NET1_22 N_A_6 0.000222106f $X=0.3095 $Y=0.2025
+cc_27 N_NET1_22 N_A_13 0.000252016f $X=0.3095 $Y=0.2025
+cc_28 N_NET1_5 N_A_6 0.000421853f $X=0.216 $Y=0.2025
+cc_29 N_NET1_20 N_A_5 0.0342177f $X=0.0935 $Y=0.2025
+cc_30 N_NET1_30 N_A_13 0.000455075f $X=0.4725 $Y=0.19
+cc_31 N_NET1_21 N_A_6 0.0344075f $X=0.2015 $Y=0.2025
+cc_32 N_NET1_3 N_A_1 0.000704224f $X=0.108 $Y=0.2025
+cc_33 N_NET1_4 N_A_12 0.00177052f $X=0.162 $Y=0.054
+cc_34 N_NET1_20 N_A_1 0.00082085f $X=0.0935 $Y=0.2025
+cc_35 N_NET1_6 N_A_8 0.000939851f $X=0.324 $Y=0.2025
+cc_36 N_NET1_3 N_A_5 0.000947662f $X=0.108 $Y=0.2025
+cc_37 N_NET1_28 N_A_11 0.00384637f $X=0.138 $Y=0.1715
+cc_38 N_NET1_25 N_A_12 0.00637465f $X=0.138 $Y=0.072
+cc_39 N_NET1_22 N_A_7 0.0189442f $X=0.3095 $Y=0.2025
+cc_40 N_NET1_22 N_A_8 0.0504968f $X=0.3095 $Y=0.2025
+cc_41 N_NET1_20 N_B_11 0.000360285f $X=0.0935 $Y=0.2025
+cc_42 N_NET1_25 N_B_9 0.000374478f $X=0.138 $Y=0.072
+cc_43 N_NET1_21 N_B_6 0.0480087f $X=0.2015 $Y=0.2025
+cc_44 N_NET1_4 N_B_1 0.000496277f $X=0.162 $Y=0.054
+cc_45 N_NET1_7 N_B_2 0.00050341f $X=0.432 $Y=0.2025
+cc_46 N_NET1_6 N_B_11 0.000504648f $X=0.324 $Y=0.2025
+cc_47 N_NET1_1 N_B_2 0.000508526f $X=0.513 $Y=0.135
+cc_48 N_NET1_19 N_B_6 0.0223229f $X=0.1475 $Y=0.054
+cc_49 N_NET1_3 N_B_5 0.000721243f $X=0.108 $Y=0.2025
+cc_50 N_NET1_23 N_B_8 0.0522671f $X=0.4175 $Y=0.2025
+cc_51 N_NET1_5 N_B_1 0.000936001f $X=0.216 $Y=0.2025
+cc_52 N_NET1_4 N_B_6 0.00108563f $X=0.162 $Y=0.054
+cc_53 N_NET1_5 N_B_6 0.00120994f $X=0.216 $Y=0.2025
+cc_54 N_NET1_30 N_B_9 0.00138766f $X=0.4725 $Y=0.19
+cc_55 N_NET1_30 N_B_10 0.00167981f $X=0.4725 $Y=0.19
+cc_56 N_NET1_7 N_B_8 0.00180452f $X=0.432 $Y=0.2025
+cc_57 N_NET1_18 N_B_8 0.00269705f $X=0.513 $Y=0.0245
+cc_58 N_NET1_28 N_B_9 0.00282843f $X=0.138 $Y=0.1715
+cc_59 N_NET1_21 N_B_1 0.00297277f $X=0.2015 $Y=0.2025
+cc_60 N_NET1_23 N_B_2 0.00300478f $X=0.4175 $Y=0.2025
+cc_61 N_NET1_30 N_B_11 0.0172456f $X=0.4725 $Y=0.19
+cc_62 N_NET1_23 N_B_7 0.0187086f $X=0.4175 $Y=0.2025
+cc_63 N_NET1_20 N_B_5 0.0490427f $X=0.0935 $Y=0.2025
+
+
+* End of included file AND2.pex.netlist.pxi
+.ENDS
+*
+
